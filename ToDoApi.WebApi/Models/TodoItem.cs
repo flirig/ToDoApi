@@ -1,8 +1,6 @@
-using System;
-
 namespace ToDoApi.WebApi.Models
 {
-    public class TodoItem
+    public class ToDoItem
     {
         public long Id { get; set; }
         public string Name { get; set; }
