@@ -18,4 +18,4 @@ jobs:
         docker build . -t flirig/todoapi
     - name: docker push
       run: |
-        docker push flirig/ToDoApi
+        docker push flirig/todoapi
