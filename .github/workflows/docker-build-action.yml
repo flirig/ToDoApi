@@ -15,7 +15,7 @@ jobs:
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
     - name: docker build project
       run: |
-        docker build . -t flirig/ToDoApi
+        docker build . -t flirig/todoapi
     - name: docker push
       run: |
         docker push flirig/ToDoApi
